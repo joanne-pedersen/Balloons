@@ -1,0 +1,11 @@
+@title Interval shooting
+@param a Shoot count
+@default a 5
+@param t MS
+@default t 1000
+
+for n=0 to a
+    sleep t
+    print "Shoot", n, "of", a
+    shoot
+next n
